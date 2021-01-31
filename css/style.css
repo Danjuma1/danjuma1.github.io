@@ -8837,7 +8837,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
-    color: #fff; }
+    color: rgb(80, 15, 15); }
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -8874,6 +8874,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 30px; }
   .progress-wrap h3 {
     font-size: 20px;
+    color: rgb(80, 15, 15);
     margin-bottom: 10px;
     font-weight: 500; }
 
@@ -8917,7 +8918,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     font-size: 20px;
     font-weight: 400;
-    color: #fff; }
+    color: rgb(80, 15, 15); }
 
 .ftco-hireme {
   background: #279058;
@@ -9376,8 +9377,15 @@ textarea.form-control {
       color: #fff;
       border: 1px solid transparent; }
 
-.contact-section .contact-info p a {
-  color: #1a1a1a; }
+.contact-section .contact-info p {
+  color: rgb(80, 15, 15); }
+
+.contact-section .contact-info p a.contact {
+  color: rgb(80, 15, 15); }
+
+.contact-section .contact-info h3 {
+  color: rgb(80, 15, 15);
+}
 
 .contact-section .box {
   width: 100%;
